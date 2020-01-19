@@ -1,5 +1,5 @@
 body {
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
@@ -45,24 +45,23 @@ body {
     width: 100%;
 }
 
-
-#navbarNav .nav-item .nav-link {
+#navigation .navbar-brand  {
     color: #fff;
 }
 
-#navigation .navbar-brand {
-    color: #fff;
-}
-#navigation a:hover {
+#navigation .navbar-brand:hover{
     color: #a3b5d9;
+}
+
+.navbar-nav .nav-item a.nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-item a.nav-link:hover{
+    color:#a3b5d9;
 }
 
 #navigation .navbar-collapse .nav-item {
     padding:  5px 20px;
-}
-
-.navbar-nav li:hover {
-    background: #a3b5d9;
 }
 
 .navbar-toggler-icon {
@@ -104,8 +103,11 @@ body {
 #about h1 {
     font-size: 35px;
     font-weight: 600;
-    text-align: center;
   }
+
+#about p {
+    color:#535c68;
+}
 
 hr {
 height: 3px;
@@ -130,7 +132,7 @@ margin-top:0;
   
 /* skills */
 .skillsSection{
-    background:#eee;
+    background:	#f2f2f2;
 
 }
 
@@ -160,7 +162,7 @@ margin-top:0;
 	color: #333;
     line-height: 152px;
     display: inline-block;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .chart .percent:after {
@@ -168,6 +170,66 @@ margin-top:0;
 }
     
 /* services */
+
+
+
+
+/* contact */
+#contact {
+    font-size: 14px;
+}
+
+#contact ul li {
+    list-style:none;
+}
+
+.contact-title {
+    text-align:left;
+}
+
+.contact-contents {
+    padding: 30px 0;
+}
+
+.text {
+    color: 	#a9a6a6;
+}
+
+#contact .short_contact img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#contact .short_contact a {
+    margin-left: 10px;
+    color: #0c447b;
+}
+
+#contact .short_contact .blog {
+    margin-left: 25px;
+}
+
+#contact .short_contact .twitter {
+    margin-left: 31px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #a9a6a6;;
+}
+
+.contact-submit {
+    width:200px;
+    background-color: #f9532f;
+    color: #fff;
+    border: 1px solid #f9532f;
+    font-size: 16px;
+}
+
+
 
 /* footer */
 .footer {

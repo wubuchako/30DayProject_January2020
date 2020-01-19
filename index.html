@@ -49,7 +49,7 @@
 
     <!-- NAVIGATION -->
     <nav id="navigation" class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">Welcome</a>
+        <a class="navbar-brand ml-5" href="index.html">Welcome</a>
   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,7 +78,7 @@
           </ul>
         </div>
 
-      </nav>
+    </nav>
     
 
     <!-- ABOUT -->
@@ -93,17 +93,16 @@
                   
                   <h1 class="style-one">About Me</h1>
                   <hr>
-                  <h4>Hello, My mame is John Taro.</h4>
+                  <h3>Hello, My mame is John Taro.</h3>
 
-                  <h6>I am from Japan. </h6>
-                  <br>
+                  <h5>I am from Japan. </h5>
 
                   <h4>
                     <a href="" class="typewrite" data-period="2000" data-type='[ "I am Web Developer.", "I am Software engineer", "I Love to Develop." ]'>
                       <span class="wrap"></span>
                     </a>
                   </h4>
-
+                  <br>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae 
                     similique molestias dolor, iste tempore quia assumenda labore fugiat 
                   </p>
@@ -126,7 +125,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center mb-3">
             <h2>TECHNICAL SKILLS</h2>
             <hr>
           </div>
@@ -138,7 +137,7 @@
                   <span class="percent">90</span>
                   <canvas height="152" width="152"></canvas>
                 </span>
-                <h4>HTML 5</h4>
+                <h4 class="mt-3">HTML 5</h4>
               </div>
               
               <div class="skill">
@@ -146,7 +145,7 @@
                   <span class="percent">85</span>
                   <canvas height="152" width="152"></canvas>
                 </span>
-                <h4>CSS 3</h4>
+                <h4 class="mt-3">CSS 3</h4>
               </div>
 
               <div class="skill">
@@ -154,7 +153,7 @@
                   <span class="percent">60</span>
                   <canvas height="152" width="152"></canvas>
                 </span>
-                <h4>JavaScript</h4>
+                <h4 class="mt-3">JavaScript</h4>
               </div>
 
               <div class="skill">
@@ -162,7 +161,7 @@
                   <span class="percent">50</span>
                   <canvas height="152" width="152"></canvas>
                 </span>
-                <h4>React</h4>
+                <h4 class="mt-3">React</h4>
               </div>
           </div>
         </div>
@@ -202,18 +201,66 @@
         </div>
       </div>
     </section>
+
+
     <!-- CONTACT -->
-    <section id="contact" class="contactSection section">
+  <section id="contact" class="contactSection section py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>CONTACT</h2>
-            <hr>
-          </div>
-        </div>
+
+          <div class="col">
+            <div class="contact-title">
+              <h2>GET IN TOUCH</h2>
+              <hr>
+              <p class="mb-5 text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Accusamus aliquid repellendus 
+                totam dolorum libero enim.</p>
+            </div>
+          </div> 
+
+          <div class="container contact-contents">
+            <div class="row">
+
+              <div class="col-md-4">
+                <div class="short_contact">
+                  <ul>
+                    <li>
+                      <img src="img/contact/website.png" alt="website" />
+                      <span><label>Website:</label> <a href="#" target="_blank" class="blog">JT_blog.com</a></span>
+                    </li>
+                    <li>
+                      <img src="img/contact/twitter.png" alt="twitter" />
+                      <span><label>Twitter:</label> <a href="https://twitter.com" target="_blank" class="twitter">@JTtwitter</a></span>
+                    </li>
+                    <li>
+                      <img  src="img/contact/facebook.png" alt="facebook" />
+                      <span><label>Facebook:</label> <a href="https://fb.me/@facebook" target="_blank">@JTfacebook</a></span>
+                    </li>
+                    <li>
+                      <img src="img/contact/instagram.png" alt="instagram" />
+                      <span><label>Instagram:</label> <a href="https://www.instagram.com" target="_blank">@JTinstagram</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="col-md-8">
+                <form class="form">
+                  <ul>
+                    <li><input id="name" type="text" placeholder="Name" /></li>
+                    <li><input id="email" type="text" placeholder="Mail" /></li>
+                    <li><textarea id="message" placeholder="Message"></textarea></li>
+                    <input type="submit" value="Submit" class="contact-submit" rows="50">
+                  </ul> 
+                </form>
+              </div>
+
+          </div>    
+        </div> 
+
       </div>
-      
-    </section>
+    </div>    
+</section>
 
 
     <!-- FOOTER -->
