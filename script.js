@@ -23,6 +23,26 @@ $(document).ready(function() {
 		startDelay: 1000,
 		showCursor: false
 	});
+
+
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    items: 4,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        480:{
+	            items:2
+	        },
+	        768:{
+	            items:3
+	        },
+	        938:{
+	            items:4
+	        }
+	    }
+	});
 	
 	
     // piechart
@@ -121,23 +141,6 @@ $(document).ready(function() {
 			body.removeClass("fixedNav");
 		}
 	}
-
-
-	$('.owl-carousel').owlCarousel({
-	    loop:true,
-	    items: 3,
-	    responsive:{
-	        0:{
-	            items:1
-	        },
-	        480:{
-	            items:2
-	        },
-	        768:{
-	            items:3
-	        }
-	    }
-	});
  
 
 });
