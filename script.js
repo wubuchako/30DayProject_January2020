@@ -67,7 +67,7 @@ $(document).ready(function() {
 		}
 
 
-		if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
+		if(!countUpFinished && window.pageYOffset > servicesTopOffset - $(window).height() + 200) {
 			$(".counter").each(function() {
 				var element = $(this);
 				var endVal = parseInt(element.text());
