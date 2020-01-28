@@ -137,7 +137,7 @@ $(document).ready(function() {
 			body.addClass("fixedNav");
 		}
 		else {
-			body.css("padding-top", 0);
+			body.css("padding-top", 20);
 			body.removeClass("fixedNav");
 		}
 	}
