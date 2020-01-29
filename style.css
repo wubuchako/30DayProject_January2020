@@ -41,7 +41,7 @@ body {
 /* navbar */
 #navigation {
     background: #0c447b;
-    padding:20px 10px;
+    padding:12px 7px;
     z-index: 100;
     width: 100%;
 }
@@ -488,14 +488,14 @@ margin-top:0;
 }
 
 input, textarea {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #a9a6a6;
 }
 
 .contact-submit {
-    width:200px;
+    width:35%;
     background-color: #f9532f;
     color: #fff;
     border: 1px solid #f9532f;
@@ -515,11 +515,12 @@ input, textarea {
 
 .footer p {
     color:#a9a6a6;
+    font-size: 12px;
 }
 
 /* responsive */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:720px) {
     .titleMessage .heading .main {
         font-size: 1.9rem;
     }
@@ -541,8 +542,13 @@ input, textarea {
         text-align: center;
     }
 
-
-  
-
-   
+    #services .card1, .card2 {
+        margin-bottom: 20px;
+    }
+ 
+    #blog .blog1, .blog2 {
+        margin-bottom: 50px;
+    }
+　　
+       
 }
