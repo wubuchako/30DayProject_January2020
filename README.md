@@ -2,3 +2,7 @@
 2020 January coding challenge.
 
 A Dog engineer portfolio type, landing page.
+
+HTML5, CSS3, Bootstrap4 and some plug-ins.
+
+This might be heavy.
