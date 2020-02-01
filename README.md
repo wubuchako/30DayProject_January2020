@@ -1,5 +1,8 @@
 # 30DayProject_January2020
+
 2020 January coding challenge.
+
+My purpose is to make something this month.
 
 A Dog engineer portfolio type, landing page.
 
